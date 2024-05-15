@@ -24,9 +24,9 @@ function App() {
         { enableHighAccuracy: true, timeout: 15000, maximumAge: 10000 }
     )
   }
-
-<h1>{latitude}</h1>
-<h1>{longitude}</h1>  
+<h1>Your coordinates -</h1>
+<h2>Latitude: {latitude}</h2>
+<h2>Longitude: {longitude}</h2>  
     </div>
 
   )
